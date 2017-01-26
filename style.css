@@ -1,0 +1,35 @@
+html {
+  font-size: 18px;
+  background-color: white;
+  display: block;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4em;
+  margin: 0;
+}
+div {
+  display: block;
+}
+.company {
+  background-color: black;
+  color: white;
+}
+.company img {
+  height: 1.5em;
+  padding-right: 15px;
+}
+.main-banner {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.headline {
+  background-color: black;
+  color: white;
+  width: 20em;
+  padding: 2em 3em;
+  position: relative;
+  top: 9em;
+}
