@@ -52,3 +52,49 @@ nav ul {
 li {
   display: list-item;
 }
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
+@media only screen and (max-width: 1024px)
+  .product {
+    width: 47%;
+  }
+.item-picture {
+  border: 4px solid black;
+  padding: 2em 0;
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-picture img {
+  max-width: 8em;
+}
+.description {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+}
+.info {
+  width: 35%;
+}
+.info .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1em 2em;
+}
+.products, .business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
