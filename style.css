@@ -9,7 +9,7 @@ body {
   margin: 0;
   @media only screen and (max-width: 1024px)
   body {
-  font-size: 16px;
+    font-size: 16px;
   }
 }
 div {
@@ -42,6 +42,12 @@ nav {
   background-color: firebrick;
   color: white;
   display: block;
+  padding: 20px 10px;
+}
+nav span {
+  display: inline-block;
+  text-align: center;
+  padding: 0px 30px;
 }
 nav ul {
   align-items: center;
@@ -51,6 +57,7 @@ nav ul {
 }
 li {
   display: inline-block;
+
 }
 .container {
   max-width: 960px;
@@ -61,6 +68,7 @@ li {
   display: flex;
   justify-content: space-between;
   margin: 3em 0 0 0;
+  padding: 0px 100px;
 }
 @media only screen and (max-width: 1024px)
   .product {
@@ -73,11 +81,12 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0px 40px;
 }
 .item-picture img {
   max-width: 8em;
 }
-.itemOne, .itemTwo, itemThree {
+.itemOne, .itemTwo, .itemThree {
   margin-left: 30px;
   float: left;
 }
@@ -92,7 +101,7 @@ li {
   width: 35%;
   float: left;
   margin-top:30px;
-  margin-left: 30px;
+  margin-left: 95px;
 }
 .info .title {
   display: block;
@@ -100,8 +109,19 @@ li {
   color: white;
   padding: 1em 2em;
 }
-.products, .business-info {
+.products {
   display: flex;
   justify-content: space-between;
   margin: 3em 0 0 0;
 }
+
+.footer {
+  position: absolute;
+    right: 0;
+    bottom: -160px;
+    left: 0;
+    padding: 1rem;
+    background-color: black;
+    text-align: center;
+    color: white;
+  }
