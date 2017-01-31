@@ -16,12 +16,13 @@ div {
   display: block;
 }
 .headline h4 {
-  font-family:"Roboto";
+  font-family:"roboto";
   font-size: 1rem;
   font-weight: bold;
+  padding-bottom: 0.25rem;
 }
 .headline h1{
-  font-family: "Roboto";
+  font-family: "roboto";
   font-size: 2rem;
   font-weight: bold;
 }
@@ -136,4 +137,5 @@ li {
     background-color: black;
     text-align: left;
     color: white;
+    height: 5rem;
   }
