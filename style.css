@@ -15,9 +15,21 @@ body {
 div {
   display: block;
 }
+.headline h4 {
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.headline h1{
+  font-family: Roboto;
+  font-size: 2rem;
+  font-weight: bold;
+}
 .company {
   background-color: black;
   color: white;
+  font-family: Roboto;
+  font-size: 1rem;
 }
 .company img {
   height: 1.5em;
