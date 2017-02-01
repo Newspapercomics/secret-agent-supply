@@ -29,7 +29,7 @@ div {
 .company {
   background-color: black;
   color: white;
-  font-family: Roboto;
+  font-family: "roboto";
   font-size: 1rem;
 }
 .company img {
@@ -55,18 +55,19 @@ nav {
   background-color: firebrick;
   color: white;
   display: block;
-  padding: 20px 10px;
+  padding: 20px 40px;
 }
 nav span {
   display: inline-block;
   text-align: center;
-  padding: 0px 30px;
+  padding: 0px 45px;
 }
 nav ul {
   align-items: center;
   justify-content: space-between;
   padding: 0.75em 0;
   list-style: none;
+  font-family: "roboto";
 }
 li {
   display: inline-block;
@@ -82,6 +83,7 @@ li {
   justify-content: space-between;
   margin: 3em 0 0 0;
   padding: 0px 100px;
+  font-family: "roboto";
 }
 @media only screen and (max-width: 1024px)
   .product {
@@ -121,6 +123,7 @@ li {
   background-color: black;
   color: white;
   padding: 1em 2em;
+  font-family: "roboto";
 }
 .products {
   display: flex;
@@ -138,4 +141,5 @@ li {
     text-align: left;
     color: white;
     height: 5rem;
+    font-family: "roboto";
   }
